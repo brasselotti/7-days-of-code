@@ -25,14 +25,15 @@
     color: var(--cinza-claro);
 }
 
-.cards {
+.cards__data {
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin: 0.5em;
 }
-.cards__data {
+.cards__titulo {
     font-size: 16px;
     font-weight: 700;
+    margin: 0.5em;
 }
 
 .cards__paciente {
@@ -40,7 +41,7 @@
     border-radius: 10px;
     width: 92vw;
     align-self: center;
-    margin: 1em 0;
+    margin: .5em 0;
 }
 
 .cards__paciente-dados {
@@ -79,30 +80,39 @@
     align-self: center;
 }
 
-.botões-ligação {
+.botões {
     display: flex;
-    justify-content: space-evenly;
-    margin: 1em;
+    justify-content: space-around;
+    margin-top: 1em;
 }
 
 .botão-laranja,
-.botão-branco {
-    width: 10em;
-    height: 3.5em;
+.botão-branco,
+.botão-azul {
     border-radius: 8px;
     font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 14px;
+    height: 3.5em;
 }
 
 .botão-laranja {
     background-color: var(--laranja);
     border: none;
     color: var(--branco);
+    width: 10em;
 }
 
 .botão-branco {
     background-color: transparent;
     border: 1px solid var(--cinza-claro);
     color: var(--cinza-escuro);
+    width: 10em;
+}
+
+.botão-azul {
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    width: 22em;
 }
