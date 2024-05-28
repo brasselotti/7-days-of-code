@@ -1,0 +1,54 @@
+.cards__data {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
+.cards__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+.cards__paciente {
+    background: var(--branco);
+    border-radius: 10px;
+    width: 92vw;
+    align-self: center;
+    margin: .5em 0;
+}
+
+.cards__paciente-dados {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.foto-paciente {
+    margin-right: 1em;
+}
+.nome-paciente {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.modalidade-consulta {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cinza-claro);
+    gap: 0.5em;
+}
+
+.informações-agendamento {
+    padding: 1em;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.agendamento-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    margin-right: auto;
+    align-self: center;
+}

@@ -1,5 +1,7 @@
-@import url("styles/página.css");
-@import url("styles/cabeçalho.css");
+@import url("styles/cards.css");
+@import url("styles/navegação.css");
+@import url("styles/botões.css");
+@import url("styles/perfil.css");
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
