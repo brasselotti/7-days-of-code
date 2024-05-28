@@ -1,0 +1,108 @@
+.container__perfil {
+    display: flex;
+    align-items: center;
+    margin: 2em 1em 1em;
+}
+
+.container__mensagens {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+.foto-perfil {
+    margin-right: 1em;
+}
+
+.titulo__saudação {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cinza-escuro);
+}
+
+.titulo__consultas {
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.cards__data {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cards__paciente {
+    background: var(--branco);
+    border-radius: 10px;
+    width: 92vw;
+    align-self: center;
+    margin: 1em 0;
+}
+
+.cards__paciente-dados {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.foto-paciente {
+    margin-right: 1em;
+}
+.nome-paciente {
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.modalidade-consulta {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cinza-claro);
+    gap: 0.5em;
+}
+
+.informações-agendamento {
+    padding: 1em;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.agendamento-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    margin-right: auto;
+    align-self: center;
+}
+
+.botões-ligação {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+
+.botão-laranja,
+.botão-branco {
+    width: 10em;
+    height: 3.5em;
+    border-radius: 8px;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.botão-laranja {
+    background-color: var(--laranja);
+    border: none;
+    color: var(--branco);
+}
+
+.botão-branco {
+    background-color: transparent;
+    border: 1px solid var(--cinza-claro);
+    color: var(--cinza-escuro);
+}
