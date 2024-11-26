@@ -2,12 +2,13 @@
 @import url("styles/navegação.css");
 @import url("styles/botões.css");
 @import url("styles/perfil.css");
+@import url("styles/rodape.css");
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
     --cinza-escuro: #464646;
     --cinza-claro: #A3A3A3;
-    --branco-gelo: #F9F7FE;
+    --branco-gelo: #eeedf3;
     --branco: #FFFFFF;
     --preto: #333333;
     --laranja: #FFB050;
