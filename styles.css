@@ -3,6 +3,7 @@
 @import url("styles/botões.css");
 @import url("styles/perfil.css");
 @import url("styles/rodape.css");
+@import url("styles/botao-flutuante.css");
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
