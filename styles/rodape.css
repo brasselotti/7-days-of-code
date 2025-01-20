@@ -27,11 +27,13 @@
     justify-content: center;
     align-items: center;
     color: var(--cinza-claro);
+    cursor: pointer;
+
 }
 
 .rodape__acao span {
-    width: 24px;
-    height: 24px;
+    width: 2em;
+    height: 2em;
     background-position: center;
     background-repeat: no-repeat;
 }

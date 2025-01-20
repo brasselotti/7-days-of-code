@@ -9,12 +9,19 @@
     margin: 0.5em;
 }
 
+.agendamentos-pacientes {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards__paciente {
     background: var(--branco);
     border-radius: 10px;
     width: 92vw;
     align-self: center;
     margin: .5em 0;
+    min-width: 320px;
+    max-width: 70vw;
 }
 
 .cards__paciente-dados {
@@ -51,4 +58,28 @@
     gap: 0.3em;
     margin-right: auto;
     align-self: center;
+}
+
+@media screen and (min-width: 800px) {
+    .agendamentos-pacientes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards__paciente {
+        max-width: 45vw;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .agendamentos-pacientes {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards__paciente {
+        max-width: 30vw;
+    }
 }
