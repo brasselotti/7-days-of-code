@@ -1,6 +1,6 @@
 .rodape {
     width: 100%;
-    height: 58px;
+    height: 3.5rem;
     border-radius: 12px 12px 0 0;
     background: var(--branco);
     filter: drop-shadow(0 -1px 3px #46464625);
@@ -28,7 +28,6 @@
     align-items: center;
     color: var(--cinza-claro);
     cursor: pointer;
-
 }
 
 .rodape__acao span {
@@ -41,10 +40,6 @@
 .consultas-icone {
     opacity: 30%;
     background-image: url('../img/calendario-icone.svg');
-}
-
-#consultas-texto {
-    color: var(--azul)
 }
 
 .clientes-icone {
@@ -60,4 +55,10 @@
 .menu-icone {
     opacity: 30%;
     background-image: url('../img/menu-icone.svg');
+}
+
+@media screen and (min-width: 1250px) {
+    .rodape{
+        display: none;
+    }
 }

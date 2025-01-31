@@ -14,3 +14,9 @@
 .icones-cel {
     height: 1em;
 }
+
+@media screen and (min-width: 1250px) {
+    .barra-de-navegação{
+        display: none;
+    }
+}

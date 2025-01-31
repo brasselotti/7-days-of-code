@@ -4,6 +4,7 @@
 @import url("styles/perfil.css");
 @import url("styles/rodape.css");
 @import url("styles/botao-flutuante.css");
+@import url("styles/menu-lateral.css");
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;

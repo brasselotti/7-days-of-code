@@ -4,7 +4,7 @@
     margin: 0.5em;
 }
 .cards__titulo {
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 0.5em;
 }
@@ -80,6 +80,6 @@
     }
 
     .cards__paciente {
-        max-width: 30vw;
+        max-width: 25vw;
     }
 }
