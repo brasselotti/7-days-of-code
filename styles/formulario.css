@@ -1,0 +1,61 @@
+
+
+.formulario {
+    display: none;
+}
+
+@media screen and (min-width: 1250px) {
+    #hr-formulario {
+        height: .5px;
+        background-color: var(--cinza-claro);
+        width: auto;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 1em;
+        color: var(--cinza-escuro);
+    }
+
+    .titulo-form {
+        font-size: 2rem;
+        font-weight: 700;
+        align-self: center;
+    }
+    
+    .campo label {
+        font-weight: 600;
+    }
+
+    .campo input[type="text"], .campo textarea {
+        width: 30em;
+        padding: .5em;
+    }
+
+    .campo input, .campo textarea {
+        border-radius: 5px;
+        border: 1px solid var(--cinza-claro);
+        margin-top: .25em;
+    }
+
+    .campo input[type="text"]:focus, .campo textarea:focus {
+        background-color: var(--azul-claro);
+    }
+    
+    .botao-form {
+        font-family: "Montserrat", sans-serif;
+        color: var(--branco);
+        background: var(--azul-claro);
+        border: 2px solid var(--laranja-claro);
+        border-radius: 5px;
+        padding: 1em;
+        cursor: pointer;
+    }
+
+    .botao-form:hover {
+        background: var(--azul);
+        border: 2px solid var(--laranja);
+    }
+}

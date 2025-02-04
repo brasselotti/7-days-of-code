@@ -5,6 +5,7 @@
 @import url("styles/rodape.css");
 @import url("styles/botao-flutuante.css");
 @import url("styles/menu-lateral.css");
+@import url("styles/formulario.css");
 
 :root {
     --fonte-principal: "Montserrat", sans-serif;
@@ -14,7 +15,9 @@
     --branco: #FFFFFF;
     --preto: #333333;
     --laranja: #FFB050;
+    --laranja-claro: #f5c387;
     --azul: #4894FF;
+    --azul-claro: #89baff;
 }
 
 body {

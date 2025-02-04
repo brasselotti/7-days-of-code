@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    border-right: 2.5px solid var(--cinza-claro);
+    box-shadow: 1px 0px 8px 0px var(--cinza-claro);
     }
 
     .lista-menu {
@@ -63,7 +63,9 @@
     }
 
     .main-content {
-        box-sizing: border;
-        margin-left: 15vw;
+        box-sizing:border-box;
+        margin-left: 12.5vw;
     }
+
+
 }
